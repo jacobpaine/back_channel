@@ -21,7 +21,7 @@ $app->get('/', function() use($app) {
   $app['monolog']->addDebug('logging output.');
   return $app['twig']->render('index.twig');
 });
-
+  
 $app->get('/jacob', function() use($app) {
   $app['monolog']->addDebug('logging output.');
   return $app['twig']->render('jacob.twig');
