@@ -1,36 +1,68 @@
-.jumbotron {
-  background: #532F8C;
-  color: white;
-  padding-bottom: 80px;
+#theNav {
+  color: red;
+  background-color: red;
 }
-.jumbotron .btn-primary {
-  background: #845ac7;
-  border-color: #845ac7;
+
+.carousel{
+  margin-top: 5%;
 }
-.jumbotron .btn-primary:hover {
-  background: #7646c1;
+
+.carousel-inner > .carousel-item > img {
+  width:50%;
+  margin: 0 auto;
+ }
+
+.carousel-inner > .carousel-item > .carousel-caption > a{
+  color: purple;
+  background-color: black;
+ font-weight: bold;
 }
-.jumbotron p {
-  color: #d9ccee;
-  max-width: 75%;
-  margin: 1em auto 2em;
+.carousel-inner > .carousel-item > .carousel-caption > a:hover{
+  color:green;
+  text-shadow: 1px 1px white;
 }
-.jumbotron h1 {
-  font-size: 40px;
+
+.card-deck > .card {
+  display: none;
+  text-align: center;
 }
-.navbar + .jumbotron {
-  margin-top: -20px;
+
+.card-deck > .card > img{
+  width: 50%;
 }
-.jumbotron .lang-logo {
-  display: block;
-  background: #B01302;
-  border-radius: 50%;
-  overflow: hidden;
-  width: 100px;
-  height: 100px;
-  margin: auto;
-  border: 2px solid white;
+
+#player-header{
+  margin-left: 5%;
 }
-.jumbotron .lang-logo img {
-  max-width: 100%;
+
+.modal-content{
+  width: 100%;
+}
+
+.level-one {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.level-one > .card > .card-block > img {
+  width: 100%;
+}
+
+.level-two {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.level-two {
+  width: 100%;
+  border: 1px solid black;
+}
+
+.level-three {
+  width: 100%;
+  border: 1px solid black;
+}
+.level-four {
+  width: 100%;
+  border: 1px solid black;
 }
