@@ -6,25 +6,64 @@ nav {
   margin-top: -5%
 }
 
-#grainImg {
+.top {
   width: 100%;
   margin-top: -25%;
   -webkit-clip-path: inset(21% 0 15% 0);
-  clip-path: inset(21% 0 15% 0);
+  shape-outside: inset(21% 0 15% 0);
 }
 
-#farmLoans{
+/*#farmLoans{
   display: inline-block;
   width:45%;
   overflow: hidden;
   -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%);
-  clip-path: polygon(0 0, 0 100%, 100% 100%);
+  shape-outside: polygon(0 0, 0 100%, 100% 100%);
+}*/
+
+/*.top-right{
+  -webkit-clip-path: polygon(0 0, 100% 81%, 100% 0);
+  clip-path: polygon(0 0, 100% 81%, 100% 0);
+}*/
+
+.bottom-left{
+  float: left;
 }
 
-#saladPlateBw{
-  display: inline-block;
-  margin-left: 8.5%;
-  width: 45%;
-  -webkit-clip-path: polygon(0 0, 100% 100%, 100% 0);
-  clip-path: polygon(0 0, 100% 100%, 100% 0);
+.left {
+  margin-left: -5%;
+  width: 95%;
+  -webkit-shape-outside: polygon(0 0, 100% 100%, 0 100%);
+  shape-outside: polygon(0 0, 100% 100%, 0 100%);
+  float: left;
+  -webkit-clip-path: polygon(0 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 100% 100%, 0 100%);
+}
+
+.right {
+  margin-right: -5%;
+  width: 95%;
+  -webkit-shape-outside: polygon(0 0, 100% 81%, 100% 0);
+  shape-outside: polygon(0 0, 100% 81%, 100% 0);
+  float: right;
+  -webkit-clip-path: polygon(0 0, 100% 81%, 100% 0);
+  clip-path: polygon(0 0, 100% 81%, 100% 0);
+}
+
+.bottom-right {
+  -webkit-shape-outside: polygon(0 0, 10% 0, 100% 100%, 90% 100%);
+  float: right;
+  -webkit-clip-path: polygon(0 0, 10% 0, 100% 100%, 90% 100%);
+}
+
+
+#home-para-one {
+  /*width: 45%;*/
+  text-align: center;
+  font-size: 12px;
+}
+#home-para-two {
+  /*width: 45%;*/
+  text-align: center;
+  font-size: 12px;
 }
