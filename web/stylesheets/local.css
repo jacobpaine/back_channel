@@ -1,0 +1,30 @@
+li {
+  text-align: center;
+}
+
+nav {
+  margin-top: -5%
+}
+
+#grainImg {
+  width: 100%;
+  margin-top: -25%;
+  -webkit-clip-path: inset(21% 0 15% 0);
+  clip-path: inset(21% 0 15% 0);
+}
+
+#farmLoans{
+  display: inline-block;
+  width:45%;
+  overflow: hidden;
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%);
+  clip-path: polygon(0 0, 0 100%, 100% 100%);
+}
+
+#saladPlateBw{
+  display: inline-block;
+  margin-left: 8.5%;
+  width: 45%;
+  -webkit-clip-path: polygon(0 0, 100% 100%, 100% 0);
+  clip-path: polygon(0 0, 100% 100%, 100% 0);
+}
