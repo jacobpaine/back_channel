@@ -25,6 +25,8 @@ $(document).ready(function(){
     $(".bottom-right").fadeOut(400);
 
     $(".hours-top-img").fadeToggle(500);
+    $(".hours-left-img").fadeToggle(500);
+    $(".hours-right-img").fadeToggle(500);
     $(".hours-bottom-left").fadeToggle(500);
     $(".hours-bottom-right").fadeToggle(500);
   });

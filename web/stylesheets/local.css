@@ -1,5 +1,9 @@
 @import url(//db.onlinewebfonts.com/c/c6cbbadaf0df94adcd00b3411be82cd5?family=Univers+LT+Std);
 
+a:hover {
+  background-color: grey;
+}
+
 li {
   text-align: center;
 }
@@ -26,58 +30,62 @@ nav {
 }
 
 .hours-bottom-left{
-  margin-top: -40%;
-  margin-left: -5%;
-  width: 90%;
-  -webkit-shape-outside: polygon(0 40%, 0 80%, 100% 80%);
-  shape-outside: polygon(0 40%, 0 80%, 100% 80%);
-  float: left;
-  -webkit-clip-path: polygon(0 40%, 0 80%, 100% 80%);
-  clip-path: polygon(0 40%, 0 80%, 100% 80%);
+
 }
 
 .hours-bottom-right{
-  margin-right: -25%;
-  margin-top: -5%;
-
+  float : right;
+  margin-top: -15%;
   width: 100%;
-  -webkit-shape-outside: polygon(0 20%, 80% 95%, 80% 20%);
-  shape-outside: polygon(0 20%, 80% 95%, 80% 20%);
+}
+
+.hours-left-img{
+  margin-top: -18%;
+  margin-left: -8%;
+  float: left;
+  width: 75%;
+  shape-outside: polygon(0 70%, 100% 70%, 0 20%);
+  -webkit-clip-path: polygon(0 70%, 100% 70%, 0 20%);
+}
+
+.hours-right-img{
+  margin-right: -15%;
+  float : right;
+  width: 100%;
+  shape-outside: polygon(0 0, 100% 81%, 100% 0);
   float: right;
-  -webkit-clip-path: polygon(0 20%, 80% 95%, 80% 20%);
-  clip-path: polygon(0 20%, 80% 95%, 80% 20%);
+  -webkit-clip-path: polygon(0 0, 100% 81%, 100% 0);
+}
+
+.hours-bottom-right{
 }
 
 .left{
   margin-left: -5%;
   width: 95%;
-  -webkit-shape-outside: polygon(0 0, 100% 100%, 0 100%);
   shape-outside: polygon(0 0, 100% 100%, 0 100%);
   float: left;
   -webkit-clip-path: polygon(0 0, 100% 100%, 0 100%);
-  clip-path: polygon(0 0, 100% 100%, 0 100%);
 }
 
 .right {
   margin-right: -5%;
   width: 95%;
-  -webkit-shape-outside: polygon(0 0, 100% 81%, 100% 0);
   shape-outside: polygon(0 0, 100% 81%, 100% 0);
   float: right;
   -webkit-clip-path: polygon(0 0, 100% 81%, 100% 0);
-  clip-path: polygon(0 0, 100% 81%, 100% 0);
-}
-
-.bar-right {
-  -webkit-shape-outside: polygon(0 0, 10% 0, 100% 100%, 90% 100%);
-  float: right;
-  -webkit-clip-path: polygon(0 0, 10% 0, 100% 100%, 90% 100%);
 }
 
 .hours-para-one {
-  margin-top: -105%;
   text-align: center;
   font-size: 12px;
+  font-family: "Univers LT STD 49";
+}
+
+.hours-para-two {
+  text-align: center;
+  font-size: 12px;
+  font-family: "Univers LT STD 49";
 }
 
 .para-one {
@@ -93,14 +101,15 @@ nav {
   font-size: 12px;
 }
 
-
-
 .menu-col-1{
-  margin-top: -15%;
+  margin-top: -25%;
   text-align: right;
 }
 .menu-col-2{
   text-align: left;
+}
+.menu-col-3{
+  margin-top: -55%;
 }
 
 .menu-item-1 {
@@ -129,7 +138,7 @@ nav {
 .menu-img-2 {
   width: 225%;
   margin-left: -65%;
-  margin-top: 4 0%;
+  margin-bottom: -10%;
   -webkit-shape-outside: polygon(75% 85%, 30% 10%, 30% 85%);
   shape-outside: polygon(75% 85%, 30% 10%, 30% 85%);
   -webkit-clip-path: polygon(75% 85%, 30% 10%, 30% 85%);
@@ -144,4 +153,21 @@ nav {
   shape-outside: polygon(70% 10%, 20% 10%, 70% 80%);
   -webkit-clip-path: polygon(70% 10%, 20% 10%, 70% 80%);
   clip-path: polygon(70% 10%, 20% 10%, 70% 80%);
+}
+
+.menu-item-1 > h6 {
+  margin-top: 4%;
+  margin-bottom: -.5%;
+}
+
+.menu-item-2 > h6 {
+  margin-top: 4%;
+  margin-bottom: -.5%;
+}
+
+.menu-item-3 > h6 {
+  margin-top: 4%;
+}
+.menu-item-3 > h5 {
+  margin-top: 8%;
 }
