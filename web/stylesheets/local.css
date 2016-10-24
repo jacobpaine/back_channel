@@ -147,8 +147,8 @@ nav {
 
 .menu-img-3 {
   width: 200%;
-  margin-left: -55%;
-  margin-top: -15%;
+  /*margin-left: -55%;
+  margin-top: -15%;*/
   -webkit-shape-outside: polygon(70% 10%, 20% 10%, 70% 80%);
   shape-outside: polygon(70% 10%, 20% 10%, 70% 80%);
   -webkit-clip-path: polygon(70% 10%, 20% 10%, 70% 80%);
