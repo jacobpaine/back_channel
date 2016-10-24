@@ -109,7 +109,7 @@ nav {
   text-align: left;
 }
 .menu-col-3{
-  /*margin-top: -55%;*/
+  margin-top: -55%;
 }
 
 .menu-item-1 {
@@ -137,7 +137,7 @@ nav {
 
 .menu-img-2 {
   width: 225%;
-  /*margin-left: -65%;*/
+  margin-left: -65%;
   margin-bottom: -10%;
   -webkit-shape-outside: polygon(75% 85%, 30% 10%, 30% 85%);
   shape-outside: polygon(75% 85%, 30% 10%, 30% 85%);
@@ -147,8 +147,8 @@ nav {
 
 .menu-img-3 {
   width: 200%;
-  /*margin-left: -55%;
-  margin-top: -15%;*/
+  margin-left: -55%;
+  margin-top: -15%;
   -webkit-shape-outside: polygon(70% 10%, 20% 10%, 70% 80%);
   shape-outside: polygon(70% 10%, 20% 10%, 70% 80%);
   -webkit-clip-path: polygon(70% 10%, 20% 10%, 70% 80%);
