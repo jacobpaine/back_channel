@@ -1,9 +1,11 @@
+@import url(//db.onlinewebfonts.com/c/c6cbbadaf0df94adcd00b3411be82cd5?family=Univers+LT+Std);
+
 li {
   text-align: center;
 }
 
 nav {
-  margin-top: -5%
+  margin-top: -5%;
 }
 
 .invis{
@@ -81,6 +83,7 @@ nav {
 .para-one {
   text-align: center;
   font-size: 12px;
+  font-family: "Univers LT STD 49";
 }
 
 .para-two {
@@ -88,4 +91,57 @@ nav {
   padding-right: 15%;
   text-align: center;
   font-size: 12px;
+}
+
+
+
+.menu-col-1{
+  margin-top: -15%;
+  text-align: right;
+}
+.menu-col-2{
+  text-align: left;
+}
+
+.menu-item-1 {
+  text-align: right;
+  font-size: 8pt;
+}
+.menu-item-2 {
+  text-align: left;
+  font-size: 8pt;
+}
+.menu-item-3 {
+  text-align: left;
+  font-size: 8pt;
+}
+
+.menu-img-1 {
+  width: 300%;
+  margin-left: -100%;
+  margin-top: -90%;
+  -webkit-shape-outside: polygon(70% 45%, 30% 45%, 30% 100%);
+  shape-outside: polygon(70% 45%, 30% 45%, 30% 100%);
+  -webkit-clip-path: polygon(70% 45%, 30% 45%, 30% 100%);
+  clip-path: polygon(70% 45%, 30% 45%, 30% 100%);
+}
+
+.menu-img-2 {
+  width: 225%;
+  margin-left: -65%;
+  margin-top: 4 0%;
+  -webkit-shape-outside: polygon(75% 85%, 30% 10%, 30% 85%);
+  shape-outside: polygon(75% 85%, 30% 10%, 30% 85%);
+  -webkit-clip-path: polygon(75% 85%, 30% 10%, 30% 85%);
+  clip-path: polygon(75% 85%, 30% 10%, 30% 85%);
+}
+
+.menu-img-3 {
+  width: 200%;
+  margin-left: -55%;
+  margin-top: -15%;
+  -webkit-shape-outside: polygon(70% 10%, 20% 10%, 70% 80%);
+  shape-outside: polygon(70% 10%, 20% 10%, 70% 80%);
+  -webkit-clip-path: polygon(70% 10%, 20% 10%, 70% 80%);
+  clip-path: polygon(70% 10%, 20% 10%, 70% 80%);
 }
