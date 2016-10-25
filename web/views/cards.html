@@ -1,49 +1,47 @@
-<div class="card-deck-wrapper">
   <div class="card-deck">
-    <div class="card first">
-      <img class="card-img-top" src="../images/leaf.jpg" alt="Card image cap">
-      <div class="card-block">
-        <h4 class="card-title">Leaf Quest</h4>
-        <p class="card-text">Date: 01/01/2000.</p>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id facilisis turpis. Mauris tortor orci, accumsan fringilla nulla quis, euismod varius nibh. Ut est odio, accumsan sit amet pretium sit amet, condimentum nec libero. Fusce imperdiet sapien sit amet mi commodo aliquet. Aenean a est est. d !</p>
-        <p class="card-text"><small class="text-muted"><a id="card-one-more">More...</a></small></p>
+    <!-- First Card -->
+    <div class="first quest-card card col-lg-12 col-md-12 col-sm-12 col-xs-12" style="display:none;">
+      <img class="quest-img-top col-lg-3 col-md-4 col-sm-4 col-xs-4" src="../images/rp/inner_img/dwarf.jpg" alt="Card image cap">
+      <div class="card-block quest-block col-lg-9 col-md-8 col-sm-8 col-xs-8">
+        <h4 class="card-title quest-title">Leaf Quest</h4>
+        <p class=" card-text quest-text">Date: 01/01/2000.</p>
+        <p class="card-text quest-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id facilisis turpis. Mauris tortor orci, accumsan fringilla nulla quis, euismod varius nibh. Ut est odio, accumsan sit amet pretium sit amet, condimentum nec libero. Fusce imperdiet sapien sit amet mi commodo aliquet. Aenean a est est. d !</p>
+        <p class="card-text quest-text"><small class="text-muted"><a class="quest-more">More...</a></small></p>
       </div>
-          <h4 id="player-header">Players</h4>
-          <div class="card first-inside">
-            <div class="card-block">
-              <img src="../images/myPhoto.jpg"></img>
-              <p class="card-title">Player Name: Jacob</p>
-              <p class="card-text">Character Name: Bran</p>
-              {% include 'modal.html' %}
-            </div>
-          </div>  
-          <div class="card second-inside">
-            <div class="card-block">
-              <img src="../images/myPhoto.jpg"></img>
-              <h4 class="card-title">ZZZZZZZZZZ</h4>
-              <p class="card-text">ZZZZZZZZZZ .</p>
-            </div>
+      <div class="players row col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h4 class="player-header">Players</h4>
+        <div class="card player-card col-lg-2 col-md-4 col-sm-4 col-xs-12">
+          <div class="card-block player-block col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <img class="player-img col-lg-12 col-md-12 col-sm-12 col-xs-12"  src="../images/rp/portraits/leonardo_portrait.jpg"></img>
+            <p class="player-title">Player Name: Leo</p>
+            <p class="player-text">Character Name: Nardo</p>
+            {% include 'modal.html' %}
           </div>
-    </div>
-    <div class="card second">
-      <img class="card-img-top" src="../images/myPhoto.jpg" alt="Card image cap">
-      <div class="card-block">
-        <h4 class="card-title">Card title</h4>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+        <div class="card player-card col-lg-2 col-md-4 col-sm-4 col-xs-12">
+          <div class="card-block player-block col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <img class="player-img col-lg-12 col-md-12 col-sm-12 col-xs-12" src="../images/rp/portraits/donatello_portrait.jpg"></img>
+            <h4 class="player-title">Player Name: Don</h4>
+            <p class="player-text">Character Name: Atello .</p>
+            {% include 'modal.html' %}
+          </div>
+        </div>
+        <div class="card player-card col-lg-2 col-md-4 col-sm-4 col-xs-12">
+          <div class="card-block player-block col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <img class="player-img col-lg-12 col-md-12 col-sm-12 col-xs-12" src="../images/rp/portraits/michelangelo_portrait.jpg"></img>
+            <h4 class="player-title">Player Name: Michel</h4>
+            <p class="player-text">Character Name: Angelo.</p>
+            {% include 'modal.html' %}
+          </div>
+        </div>
+        <div class="card player-card col-lg-2 col-md-4 col-sm-4 col-xs-12">
+          <div class="card-block player-block col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <img class="player-img col-lg-12 col-md-12 col-sm-12 col-xs-12" src="../images/rp/portraits/raphael_portrait.jpg"></img>
+            <h4 class="player-title">Player Name: Raph</h4>
+            <p class="player-text">Character Name: Ael</p>
+            {% include 'modal.html' %}
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="card third">
-      <img class="card-img-top" src="../images/myPhoto.jpg" alt="Card image cap">
-      <div class="card-block">
-        <h4 class="card-title">Card title</h4>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      </div>
-    </div>
+    </div>     <!-- End Quest Card -->
   </div>
-</div>
-
-<div class="card-deck-wrapper">
-  <div class="card-deck">
-    <div class="card card-one-desc">

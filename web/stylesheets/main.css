@@ -1,86 +1,68 @@
-body {
-  background-color: #CCCCCC;
-}
+/*.invis {
+  display: none !important;
+}*/
 
-.card.first {
-  background-color: #CCCC9A;
-}
+.card-deck-wrapper{}
+.card-deck{}
+.card {}
+  .quest-card{}
+    .quest-img-top{}
+    .quest-block{}
+    .quest-block > .quest-title{}
+    .quest-block > .quest-text{}
+    .quest-block > .quest-more{}
+    .players{}
 
-.card.second-inside {
-  background-color: #CCCC9A;
-}
+    .players > .player-header{}
+    .players > .player-card{}
+    .player-card > .player-block{}
+      .player-block > .player-img{}
+      .player-block > .player-title{ font-size: 8pt;}
+      .player-block > .player-text{ font-size: 8pt;}
 
-.card-block{
-  background-color: #CCCCCC;
-  box-shadow: 10px 9px 5px 0px #7C7C7C;
-  border-radius: 5%;
-}
 
-#theNav {
-  color: red;
-  background-color: #666666;
-}
+.modal{}
+.modal-header{}
+.modal-header > button{}
+.modal-header > .modal-title{}
+.modal-body{}
+.modal-body > .char-card{}
+  .char-card > .char-block{}
+    .char-block > .char-name{}
+    .char-block > .char-name-desc{}
+    .char-block > .char-img{}
+    .char-block > .char-player-name{}
+    .char-block > .char-player-name-desc{}
+    .char-block > .char-concept{}
+    .char-block > .char-concept-desc{}
+    .char-block > .char-occupation{}
+    .char-block > .char-occu-desc{}
+    .char-block > .char-race{}
+    .char-block > .char-race-desc{}
+    .char-block > .char-img{}
+    .char-block > .char-gender{}
+    .char-block > .char-gender-desc{}
+    .char-block > .char-age{}
+    .char-block > .char-age-desc{}
+    .char-block > .char-height{}
+    .char-block > .char-height-desc{}
+    .char-block > .char-weight{}
+    .char-block > .char-weight-desc{}
 
-.carousel{
-  margin-top: 5%;
-}
+.modal-footer{}
+.modal-footer > button{}
 
-.carousel-inner > .carousel-item > img {
-  width:50%;
-  margin: 0 auto;
- }
-
-.carousel-inner > .carousel-item > .carousel-caption > a{
-  color: purple;
-  background-color: black;
- font-weight: bold;
+/* .modal-transparent */
+.modal-transparent {
+  background: transparent;
 }
-.carousel-inner > .carousel-item > .carousel-caption > a:hover{
-  color:green;
-  text-shadow: 1px 1px white;
+.modal-transparent .modal-content {
+  background: transparent;
 }
-
-.card-deck > .card {
-  display: none;
-  text-align: center;
+.modal-backdrop.modal-backdrop-transparent {
+  background: #ffffff;
 }
-
-.card-deck > .card > img{
-  width: 50%;
-}
-
-#player-header{
-  margin-left: 5%;
-}
-
-.modal-content{
-  width: 100%;
-}
-
-.level-one {
-  border: 1px solid black;
-  width: 100%;
-}
-
-.level-one > .card > .card-block > img {
-  width: 100%;
-}
-
-.level-two {
-  width: 100%;
-  border: 1px solid black;
-}
-
-.level-two {
-  width: 100%;
-  border: 1px solid black;
-}
-
-.level-three {
-  width: 100%;
-  border: 1px solid black;
-}
-.level-four {
-  width: 100%;
-  border: 1px solid black;
+.modal-backdrop.modal-backdrop-transparent.in {
+  opacity: .01;
+  filter: alpha(opacity=10);
 }

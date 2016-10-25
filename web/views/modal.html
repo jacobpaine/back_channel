@@ -1,220 +1,48 @@
-<div id="playerData" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-md" role="document">
+<div class="modal modal-transparent fade" id="playerData">
+  <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="gridModalLabel">D6 Fantasy</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">Modal title</h4>
       </div>
-      <div class="modal-body">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 level-one">
-              <div class="card">
-                <div class="card-block">
-                  <img class="col-xs-6 col-sm-6 col-md-6" src="../images/myPhoto.jpg"></img>
-                  <p class="player-name">Player name: <span class="player-name-desc">Jacob</span></p>
-                  <p class="concept">Concept: <span class="concept-desc">A serious old dwarf exiled form his homeland in search of redemption through baking.</span></p>
-                </div>
+        <div class="modal-body container-fluid">
+
+          <div class="char-card card">
+            <div class="char-block card-block ">
+              <img class="char-img" src="../images/myPhoto.jpg"></img>
+              <p class="char-player-name">Player name: <span class="char-player-name-desc">Jacob</span></p>
+              <p class="char-concept">Concept: <span class="char-concept-desc">A serious old dwarf exiled form his homeland in search of redemption through baking.</span></p>
+            </div>
+          </div>
+
+          <div class="char-card card">
+            <div class="char-block card-block">
+              <div class="col-xs-4">
+                <p class="char-name">Character name: <span id="char-name-desc" data-toggle="tooltip" data-placement="right" title="Pronounced: brAWn!">Bran</span></p>
+                <p class="char-occupation">Occupation: <span id="char-occu-desc" data-toggle="tooltip" data-placement="right" title="Rolling in the dough.">Baker</span></p>
+                <p class="char-race">Race: <span id="char-race-desc" data-toggle="tooltip" data-placement="right" title="Small, but fierce.">Dwarf</span></p>
               </div>
-              <div class="card">
-                <div class="card-block">
-                  <img class="col-sm-6" src="../images/myPhoto.jpg"></img>
-                  <p class="char-name">Character name: <span id="char-name-desc" data-toggle="tooltip" data-placement="right" title="Pronounced: brAWn!">Bran</span></p>
-                  <p class="occupation">Occupation: <span id="occu-desc" data-toggle="tooltip" data-placement="right" title="Rolling in the dough.">Baker</span></p>
-                  <p class="race">Race: <span id="race-desc" data-toggle="tooltip" data-placement="right" title="Small, but fierce.">Dwarf</span></p>
-                  <p class="gender">Gender: <span id="gender-desc" data-toggle="tooltip" data-placement="right" title="&#9794;">Male</span></p>
-                  <p class="age">Age: <span id="age-desc" data-toggle="tooltip" data-placement="right" title="Spry for his age.">???</span></p>
-                  <p class="height">Height: <span id="height-desc">Short</span></p>
-                  <p class="weight">Weight: <span id="weight-desc">Heavy</span></p>
-                </div>
+              <img class="col-xs-3 char-img" src="../images/rp/myPhoto.jpg"></img>
+              <div class="col-xs-5">
+                <p class="char-gender">Gender: <span id="char-gender-desc" data-toggle="tooltip" data-placement="right" title="&#9794;">Male</span></p>
+                <p class="char-age">Age: <span id="char-age-desc" data-toggle="tooltip" data-placement="right" title="Spry for his age.">???</span></p>
+                <p class="char-height">Height: <span id="char-height-desc">Short</span></p>
+                <p class="char-weight">Weight: <span id="char-weight-desc">Heavy</span></p>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-xs-4 col-sm-4 col-md-4 level-two">
-              <div class="card">
-                <div class="card-block">
-                  <h5>Agility</h5>
-                  <div class="agility">
-                    <p class="ag-skill card-title">Agility: <span class="ag-dice"data-toggle="tooltip" data-placement="right" title="Instructions for how to roll this skill.">2D</span></p>
-                  </div>
-                  <div class="agility">
-                    <p class="ag-skill">Climbing: <span class="ag-dice" data-toggle="tooltip" data-placement="right" title="Or how to improve them.">3D</span></p>
-                  </div>
-                  <div class="agility">
-                    <p class="ag-skill">Dodge: <span class="ag-dice" data-toggle="tooltip" data-placement="right" title="Perhaps even the appropriate definition.">1D</span></p>
-                  </div>
-                  <div class="agility">
-                    <p class="ag-skill">Melee: <span class="ag-dice" data-toggle="tooltip" data-placement="right" title="Instructions for how to roll this skill.">4D</span></p>
-                  </div>
-                  <div class="agility">
-                    <p class="ag-skill">Riding: <span class="ag-dice" data-toggle="tooltip" data-placement="right" title="Or specifically what you might be riding, I mean, you're telling me riding a horse, a cat, a dolphin or a dragon all require roughly the same skill?!? That's some crazy transfer.">1D</span></p>
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-block">
-                  <h5>Intellect</h5>
-                  <div class="intellect">
-                    <p class="int-skill card-title">Intellect: <span class="int-dice">1D</span> </p>
-                  </div>
-                  <div class="intellect">
-                    <p class="int-skill">Cultures: <span class="int-dice card-text">2D</span></p>
-                  </div>
-                  <div class="intellect">
-                    <p class="int-skill">Healing: <span class="int-dice">1D</span></p>
-                  </div>
-                  <div class="intellect">
-                    <p class="int-skill">Literacy: <span class="int-dice">3D</span></p>
-                  </div>
-                  <div class="intellect">
-                    <p class="int-skill">Scholar: <span class="int-dice">1D</span></p>
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-block">
-                  <h5>Coordination</h5>
-                  <div class="coordination">
-                    <p class="coord-skill card-title">Coordination: <span class="coord-dice">1D</span> </p>
-                  </div>
-                  <div class="coordination">
-                    <p class="coord-skill">Throwing: <span class="coord-dice card-text">2D</span></p>
-                  </div>
-                  <div class="coordination">
-                    <p class="coord-skill">Marksmanship: <span class="coord-dice">1D</span></p>
-                  </div>
-                  <div class="coordination">
-                    <p class="coord-skill">Lockpicking: <span class="coord-dice">3D</span></p>
-                  </div>
-                  <div class="coordination">
-                    <p class="coord-skill">Sleight of hand: <span class="coord-dice">1D</span></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-4 col-sm-4 col-md-4 level-three">
-              <div class="card">
-                <div class="card-block">
-                  <h5>Physique</h5>
-                  <div class="physique">
-                    <p class="physique-skill card-title">Physique: <span class="physique-dice">4D</span> </p>
-                  </div>
-                  <div class="physique">
-                    <p class="physique-skill">Lifting: <span class="physique-dice card-text">4D</span></p>
-                  </div>
-                  <div class="physique">
-                    <p class="physique-skill">Running: <span class="physique-dice">1D</span></p>
-                  </div>
-                  <div class="physique">
-                    <p class="physique-skill">Stamina: <span class="physique-dice">3D</span></p>
-                  </div>
-                  <div class="physique">
-                    <p class="physique-skill">Swimming: <span class="physique-dice">1D</span></p>
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-block">
-                  <h5>Charisma</h5>
-                  <div class="charisma">
-                    <p class="charisma-skill card-title">Charisma: <span class="charisma-dice">4D</span> </p>
-                  </div>
-                  <div class="charisma">
-                    <p class="charisma-skill">Bluff: <span class="charisma-dice card-text">4D</span></p>
-                  </div>
-                  <div class="charisma">
-                    <p class="charisma-skill">Charm: <span class="charisma-dice">1D</span></p>
-                  </div>
-                  <div class="charisma">
-                    <p class="charisma-skill">Command: <span class="charisma-dice">3D</span></p>
-                  </div>
-                  <div class="charisma">
-                    <p class="charisma-skill">Persuasion: <span class="charisma-dice">1D</span></p>
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-block">
-                  <h5>Acumen</h5>
-                  <div class="acumen">
-                    <p class="acumen-skill card-title">Acumen: <span class="acumen-dice">4D</span> </p>
-                  </div>
-                  <div class="acumen">
-                    <p class="acumen-skill">Crafting: <span class="acumen-dice card-text">4D</span></p>
-                  </div>
-                  <div class="acumen">
-                    <p class="acumen-skill">Investigaton: <span class="acumen-dice">1D</span></p>
-                  </div>
-                  <div class="acumen">
-                    <p class="acumen-skill">Hide: <span class="acumen-dice">1D</span></p>
-                  </div>
-                  <div class="acumen">
-                    <p class="acumen-skill">Survival: <span class="acumen-dice">1D</span></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xs-4 col-sm-4 col-md-4 level-four">
-              <div class="card">
-                <div class="card-block">
-                  <h5>Points</h5>
-                  <div class="other">
-                    <p class="other-skill">Fate points: <span class="fate-points">10</span> </p>
-                  </div>
-                  <div class="other">
-                    <p class="other-skill">Character points: <span class="char-points">100</span></p>
-                  </div>
-                  <div class="other">
-                    <p class="other-skill">Funds: <span class="funds">2D</span></p>
-                  </div>
-                  <div class="other">
-                    <p class="other-skill">Silver: <span class="silver">50</span></p>
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-block">
-                  <h5>Other</h5>
-                  <div class="other">
-                    <p class="other-skill">Strength damage: <span class="other-dice">3D</span></p>
-                  </div>
-                  <div class="other">
-                    <p class="other-skill">Move: <span class="other-dice">10</span></p>
-                  </div>
-                  <div class="other">
-                    <p class="other-skill">Body points: <span class="other-dice">50</span></p>
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-block">
-                  <h5>Extra-normal</h5>
-                  <div class="extra">
-                    <p class="extra-skill">Baking: <span class="extra-dice">5D</span></p>
-                  </div>
-                  <div class="extra">
-                    <p class="extra-skill">Golem Mfg: <span class="extra-dice">2D</span></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+
         </div>
-      </div>
-    </div>
-    <div class="modal-footer">
-      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      <button type="button" class="btn btn-primary">Save changes</button>
-    </div>
-  </div>
-</div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 <div>
-  <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#playerData">
-    Launch demo modal
+  <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#playerData">
+    Launch
   </button>
 </div>
