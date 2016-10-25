@@ -1,6 +1,6 @@
 # Website Storage
 
-A repository of websites under continual development.
+A repository of front-end designs under continual development. 
 
 
 ### LoCAL Restaurant
